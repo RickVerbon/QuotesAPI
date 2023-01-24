@@ -1,0 +1,11 @@
+- Create,Update, Delete permissions must be granted exclusively to admin users
+- Anonymous users must be able to retrieve the available records paginated in groups of 30
+
+Model: Quote
+- quote_author
+- quote_body
+- context
+- source
+- created_at
+
+To write the views, you must use the concrete classes (generics)
